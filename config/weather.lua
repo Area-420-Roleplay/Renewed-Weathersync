@@ -1,13 +1,13 @@
 return {
 
     useScheduledWeather = true, -- Do you want txAdmin to schedule custom rain and thunder near restart?
-    serverDuration = 14, -- How many hours will the server run before restarting?, if a server restarts every 8 hours put this to 9 etc.
-    weatherCycletimer = 30, -- How many minutes between weather changes
+    serverDuration = 8, -- How many hours will the server run before restarting?, if a server restarts every 8 hours put this to 9 etc.
+    weatherCycletimer = 480, -- How many minutes between weather changes
 
     timeBetweenRain = 180, -- How many minutes between rain events
     rainAfterRestart = 60, -- How many minutes AFTER a server restart before rain will start to show?
 
-    decemberSnow = true, -- if turned on means that only snow will happen in december
+    decemberSnow = false, -- if turned on means that only snow will happen in december
 
     useStaticWeather = true,
     staticWeather = {
@@ -27,7 +27,7 @@ return {
         ['XMAS'] = 0.0
     },
 
-    useWeatherSequences = true,
+    useWeatherSequences = false,
 
     weatherSequences = {
 
